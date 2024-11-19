@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.title("CSV Data Visualization App")
 
 # File uploader for CSV
-uploaded_file = st.file_uploader("AQI_dat", type=["csv"])
+uploaded_file = st.file_uploader("AQI_datv2", type=["csv"])
 
 if uploaded_file is not None:
     # Read the CSV file
